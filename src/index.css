@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'roboto';
+}
+@layer{
+    .container{
+        @apply mx-auto   
+    }
+}
+
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px; /* Color of the thumb (the draggable part) */
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ccc; /* Color of the thumb (the draggable part) */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #666 !important; /* Color of the track (the non-draggable part) */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin; /* "auto" or "thin" is typically used */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the thumb for Firefox */
+  }
+  
+  *::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the track for Firefox */
+  }
