@@ -1,6 +1,6 @@
 import * as React from 'react';
-import {Box,styled,CssBaseline,Typography} from '@mui/material';
-import Topbar from '../../MUIComponents/Topbar/Topbar';
+import {Box,styled,CssBaseline} from '@mui/material';
+import Topbar from '../../muiComponents/Topbar/Topbar';
 import Sidebar from '../../muiComponents/Sidebar/Sidebar';
 import { Outlet } from 'react-router-dom';
 

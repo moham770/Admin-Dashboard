@@ -13,7 +13,6 @@ import Geography from './pages/Geography/Geography';
 import Faq from './pages/Faq/Faq';
 import BarChart from './pages/BarChart/BarChart';
 import Calender from './pages/Calender/Calender';
-// import NotFound from './pages/NotFound/NotFound';
 import NotFound from './pages/NotFound/NotFound'
 import './index.css'
 
