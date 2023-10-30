@@ -1,6 +1,6 @@
 /* eslint-disable no-dupe-keys */
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter ,RouterProvider } from 'react-router-dom'
+import {createHashRouter,RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout/Layout';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Team from './pages/Team/Team';
@@ -17,7 +17,7 @@ import NotFound from './pages/NotFound/NotFound'
 import './index.css'
 
 
-const router =  createBrowserRouter([
+const router =  createHashRouter([
         // @ts-ignore
         {element:'/',element:<Layout/>,children:[
         {index:true,element:<Dashboard/>},
