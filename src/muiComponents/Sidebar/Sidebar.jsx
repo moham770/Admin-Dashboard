@@ -27,6 +27,7 @@ import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import { useLocation, useNavigate } from "react-router-dom";
 import { grey } from "@mui/material/colors";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import logo from "../../assets/WhatsApp Image 2023-10-09 at 03.07.48_b0a049f2.jpg"
 
 const drawerWidth = 240;
 const openedMixin = (theme) => ({
@@ -240,7 +241,7 @@ const Sidebar = ({ handleDrawerClose, open, DrawerHeader }) => {
 
         <Avatar
           alt="Mohamed Ayman"
-          src="../../../public/WhatsApp Image 2023-10-09 at 03.07.48_b0a049f2.jpg"
+          src={logo}
           sx={{
             my: 1,
             width: open ? "77px" : "40px",
